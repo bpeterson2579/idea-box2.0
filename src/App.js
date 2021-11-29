@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import Ideas from './Ideas';
 
 class App extends Component {
   constructor() {
@@ -17,7 +18,8 @@ class App extends Component {
     return (
       <main>
         <h1>Idea Box</h1>
-        <p>hi!</p>
+        <Ideas name='Travis' />
+        <Ideas name='Blucifer' />
       </main>
     )
   }
